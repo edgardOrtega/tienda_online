@@ -58,10 +58,11 @@ footer{
 .grid-container{
     display: grid;
     grid-template-areas: 
-    "navbar navbar navbar navbar navbar navbar navbar navbar  "
-    "menu main main main main main main main"
-    "footer footer footer footer footer footer footer footer "
+    "navbar navbar"
+    "menu main"
+    "footer footer"
     ;
+    grid-template-columns: 20% auto;
 
 }
 
